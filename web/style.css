@@ -1,0 +1,60 @@
+body {
+	background-color: black;
+}
+
+
+.container {
+	grid-template-rows: 1fr 100px;
+}
+
+
+.board {
+	background-color: black;
+	display: flex;
+	flex-direction: row;
+}
+
+.team {
+	border-color: red;
+}
+
+
+.info {
+	background-color: black;
+	font-size: 36px;
+}
+
+
+p {
+	color: white;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	margin: 32px;
+
+}
+
+
+.name {
+	font-size: 72px;
+}
+
+.subtitle {
+	font-size: 36px;
+}
+
+.score {
+	margin: 150px;
+	font-size: 300px;
+}
+
+
+.center {
+	margin: auto;
+}
+
+
+.match_id {
+	font-size: 20px;
+	color: gray;
+}
