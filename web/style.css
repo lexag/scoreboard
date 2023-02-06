@@ -1,5 +1,18 @@
-body {
+:root {
+	--bg: #3b4d34;
+}
+
+.hide {
 	background-color: black;
+	color: black;
+	background: black;
+}
+
+
+
+body {
+	overflow: hidden;
+	background: linear-gradient(45deg, #bb3333, #2222aa);
 }
 
 
@@ -9,7 +22,6 @@ body {
 
 
 .board {
-	background-color: black;
 	display: flex;
 	flex-direction: row;
 }
@@ -20,7 +32,6 @@ body {
 
 
 .info {
-	background-color: black;
 	font-size: 36px;
 }
 
@@ -44,7 +55,7 @@ p {
 }
 
 .score {
-	margin: 150px;
+	margin: 175px;
 	font-size: 300px;
 }
 

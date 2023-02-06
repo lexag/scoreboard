@@ -17,9 +17,11 @@ eel.expose(setScoreboard)
 document.addEventListener('keydown', (event) => {
 	var name = event.key;
 	var code = event.code;
-	// Alert the key name and key code on keydown
+	if(code.toLowerCase() == "space") {
+		$('*').toggleClass('hide');
+	}
 	eel.receiveKeyPress(name, code)
-	console.log(name)
+	console.log(code)
 }, false);
 
 
