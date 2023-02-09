@@ -43,11 +43,23 @@ p {
 	font-weight: 700;
 	margin: 32px;
 
+
+}
+
+
+
+.name-container {
+	max-width: 35vw;
+	overflow: hidden;
+	margin-top: 50px;
+	
 }
 
 
 .name {
-	font-size: 72px;
+	font-size: 60px;
+	white-space: nowrap;
+	text-align: center;
 }
 
 .subtitle {
@@ -68,4 +80,28 @@ p {
 .match_id {
 	font-size: 20px;
 	color: gray;
+}
+
+
+
+
+
+
+.scroll-text {
+	/* animation properties */
+	transform: translateX(100%);
+
+	animation: my-animation 10s linear infinite;
+}
+
+
+
+@keyframes my-animation {
+	from {
+		transform: translateX(120%);
+	}
+
+	to {
+		transform: translateX(-180%);
+	}
 }

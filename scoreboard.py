@@ -65,6 +65,13 @@ def receiveKeyPress(name, code):
 	if name.lower() == "arrowright":
 		p2score += 1
 		save_result()
+	if name.lower() == "a":
+		p1score -= 1
+		save_result()
+	if name.lower() == "d":
+		p2score -= 1
+		save_result()
+	
 	if name.lower() == "arrowup":
 		matchno -= 1
 		load_match(matchno)
