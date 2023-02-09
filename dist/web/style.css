@@ -1,0 +1,107 @@
+:root {
+	--bg: #3b4d34;
+}
+
+.hide {
+	background-color: black;
+	color: black;
+	background: black;
+}
+
+
+
+body {
+	overflow: hidden;
+	background: linear-gradient(45deg, #bb3333, #2222aa);
+}
+
+
+.container {
+	grid-template-rows: 1fr 100px;
+}
+
+
+.board {
+	display: flex;
+	flex-direction: row;
+}
+
+.team {
+	border-color: red;
+}
+
+
+.info {
+	font-size: 36px;
+}
+
+
+p {
+	color: white;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	margin: 32px;
+
+
+}
+
+
+
+.name-container {
+	max-width: 35vw;
+	overflow: hidden;
+	margin-top: 50px;
+	
+}
+
+
+.name {
+	font-size: 60px;
+	white-space: nowrap;
+	text-align: center;
+}
+
+.subtitle {
+	font-size: 36px;
+}
+
+.score {
+	margin: 175px;
+	font-size: 300px;
+}
+
+
+.center {
+	margin: auto;
+}
+
+
+.match_id {
+	font-size: 20px;
+	color: gray;
+}
+
+
+
+
+
+
+.scroll-text {
+	/* animation properties */
+	transform: translateX(100%);
+
+	animation: my-animation 10s linear infinite;
+}
+
+
+
+@keyframes my-animation {
+	from {
+		transform: translateX(120%);
+	}
+
+	to {
+		transform: translateX(-180%);
+	}
+}
